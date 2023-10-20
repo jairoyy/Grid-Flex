@@ -112,6 +112,7 @@ p {
 	background-image: url(img/5.jpeg);
 	padding: 2em;
 	color: #3E454C;
+	background-position: 100%;
 }
 
 
@@ -121,11 +122,12 @@ p {
 	background: #2185C5;
 	color: #3E454C;
 	background-image: url(img/6.jpeg);
+	background-position: 100%;
 }
 
 .two:last-of-type {
 	background-image: url(img/7.jpeg);
-	background-position: 50%;
+	background-position: 100%;
 }
 
 
@@ -175,6 +177,7 @@ p {
 		
 		.two {
 			grid-column: span 2;
+			
 		}
 
 	}
